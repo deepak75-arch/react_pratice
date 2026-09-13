@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import User from './components/user';
 import UserCard from './components/UserCard';
+import Button from './components/Button';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <User name="Jane Doe" email="B4o0I@example.com" />
 
       <h1>Welcome to my React App</h1>
+
+      <Button />
     </div><div>
         <Navbar />
         <UserCard name="john" email="xyz@gmail.com" designation="developer" location="bangalore" />
