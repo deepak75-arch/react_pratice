@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import User from './components/user';
 import UserCard from './components/UserCard';
 import Button from './components/Button';
+import Increment from './components/increment';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <User name="Jane Doe" email="B4o0I@example.com" />
 
       <h1>Welcome to my React App</h1>
+
+      <Increment />
 
       <Button />
     </div><div>
