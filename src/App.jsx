@@ -6,7 +6,8 @@ import User from './components/user';
 import UserCard from './components/UserCard';
 import Button from './components/Button';
 import UseState from './components/usestate';
-import Button23 from './components/22usestate'
+import Button23 from './components/22usestate';
+import Empty_Depencency from './components/Useeffect';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       <User name="Jane Doe" email="B4o0I@example.com" />
 
       <h1>Welcome to my React App</h1>
+
+
+      <Empty_Depencency />
 
       <Button23/>
 
