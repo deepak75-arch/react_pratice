@@ -5,7 +5,8 @@ import Footer from './components/Footer';
 import User from './components/user';
 import UserCard from './components/UserCard';
 import Button from './components/Button';
-import Increment from './components/increment';
+import UseState from './components/usestate';
+import Button23 from './components/22usestate'
 
 function App() {
   return (
@@ -19,7 +20,10 @@ function App() {
 
       <h1>Welcome to my React App</h1>
 
-      <Increment />
+      <Button23/>
+
+
+      <UseState />
 
       <Button />
     </div><div>
